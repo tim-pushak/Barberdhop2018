@@ -1,0 +1,139 @@
+body {
+   
+
+    margin: 0;
+    padding: 0;
+
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+
+    background-color: #f7f4f1;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+.button {
+    display: inline-block;
+    margin-right: 16px;
+    padding: 10px 19px;
+
+    font: inherit;
+
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #000000;
+    border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: #663d15;
+}
+
+/*........................HEADER....................*/
+.main-header {
+    margin-bottom: 55px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.main-header-logo {
+    margin-left: 100px;
+    margin-top: 23px;
+}
+
+.main-navigation {
+    display: flex;
+    align-content: center;    
+}
+
+.main-navigation ul {
+    list-style: none;
+}
+.main-navigation a {
+    color: #ffffff;
+}
+
+.site-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 22px;
+}
+
+.nav-item {
+    margin-left: 50px;
+}
+
+.user-navigation {
+    margin-left: auto;
+    margin-right: 130px;
+    margin-top: 21px;
+}
+
+
+.site-navigation-current1 {
+    position: relative;
+}
+
+.site-navigation-current1 a:not([href]) {
+    background-color: #000000;
+}
+
+.site-navigation-current1::after {
+    content: "";
+
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    left: 10px;
+
+    height: 5px;
+
+    background-color: #ffffff;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.site-navigation a:active,
+.user-navigation a:hover,
+.user-navigation a:focus,
+.user-navigation a:active{
+    background-color: #242424;
+}
+
+
+
+.site-navigation a,
+.user-navigation a, 
+.header-item a {
+    display: block;
+
+    padding: 5px 10px;
+
+    /*vertical-align: middle;*/
+
+    color: #ffffff;
+}

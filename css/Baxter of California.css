@@ -1,0 +1,635 @@
+body {
+    min-width: 960px;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+
+    background-image: url(../img/PNG/Фон\ для\ Контактів.png);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.button {
+    display: inline-block;
+    margin-right: 16px;
+    padding: 10px 19px;
+
+    font: inherit;
+
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #000000;
+    border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: #663d15;
+}
+
+/*........................HEADER....................*/
+.main-header {
+    margin-bottom: 55px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.main-header-logo {
+    margin-left: 100px;
+    margin-top: 23px;
+}
+
+.main-navigation {
+    display: flex;
+    align-content: center;    
+}
+
+.main-navigation ul {
+    list-style: none;
+}
+.main-navigation a {
+    color: #ffffff;
+}
+
+.site-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 22px;
+}
+
+.nav-item {
+    margin-left: 50px;
+}
+
+.user-navigation {
+    margin-left: auto;
+    margin-right: 130px;
+    margin-top: 21px;
+}
+
+
+.site-navigation-current1 {
+    position: relative;
+}
+
+.site-navigation-current1 a:not([href]) {
+    background-color: #000000;
+}
+
+.site-navigation-current1::after {
+    content: "";
+
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    left: 10px;
+
+    height: 5px;
+
+    background-color: #ffffff;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.site-navigation a:active,
+.user-navigation a:hover,
+.user-navigation a:focus,
+.user-navigation a:active{
+    background-color: #242424;
+}
+
+
+
+.site-navigation a,
+.user-navigation a, 
+.header-item a {
+    display: block;
+
+    padding: 5px 10px;
+
+    /*vertical-align: middle;*/
+
+    color: #ffffff;
+}
+
+
+
+
+
+.user-navigation .login-link {
+    position: relative;
+    padding-left: 50px;
+}
+.login-link::before {
+    content: "";
+
+    position: absolute;
+    width: 16px;
+    height: 18px;
+
+    top: 10px;
+    left: 36px;
+
+    background-image: url(../img/SVG/login.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    
+    opacity: 0.3;
+}
+
+.login-link:hover::before,
+.login-link:focus::before,
+.login-link:active::before {
+    opacity: 1;
+}
+
+
+/*...........................MAIN........................*/
+.container {
+    color: #000000;
+    background-image: url(../img/PNG/Фон\ для\ Контактів.png);
+}
+
+.page-title {
+    margin-left: 130px;
+}
+
+.breadcrumbs {
+    display: flex;
+    margin-left: 46px;
+
+    
+    list-style: none;
+}
+
+.breadcrumbs1 {
+    margin-left: 50px;
+}
+
+.breadcrumbs a {
+    color: #000000;
+}
+
+.breadcrumbs1    {
+    opacity: 0.5;
+}
+
+.product-photos ul {
+    list-style: none;
+}
+
+.product-photo-preview {
+    display: flex;
+    margin-left: -65px;
+}
+.product-photo-preview a {
+    text-decoration: none;
+}
+
+.img55 {
+    margin-top: 21px;
+    margin-left: 20px;
+    box-shadow: 0 30px 50px rgba( 0, 0, 0, 0.7);
+}
+
+
+.img555 {
+    /*margin-top: ; */
+    margin-left: auto;
+    box-shadow: 0 30px 50px rgba( 0, 0, 0, 0.7);
+}
+
+
+.box {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+.product-article {
+
+    opacity: 0.5;
+
+}
+
+.bishka {
+    background-color: #e5e5e5;
+    padding: 17px 37px;
+}
+
+.button1 {
+    margin-top: -3px;
+    padding: 6px 19px;
+    margin-left: -4px;
+}
+
+.bishka2 {
+    margin-top: 65px;
+}
+
+
+
+/*...............................FOOTER..................................................*/
+
+
+.main-footer {
+    background-image: url(../img/PNG/Фон\ футер.png);
+    padding: 60px 0;
+    margin-top: 65px;
+}
+
+.main-footer .container1 {
+    display: flex;
+    color: #ffffff;
+}
+
+.footer-contacts {
+    width: 320px;
+    margin: 0;
+    margin-right: 180px;
+    margin-left: 130px;
+    /*---*/
+    min-height: 100px; 
+}
+
+.footer-social {
+    width: 145px;
+    /*---*/
+    min-height: 100px;
+}
+
+.footer-social ul {
+    display: flex;
+    width: 141px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+
+    list-style: none;
+}
+
+.footer-social b {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 43px;
+    height: 43px;
+
+    background-color: #000000;
+}
+.social-button:hover,
+.social-button:focus {
+    background-color: #ffffff;
+}
+.social-button:hover path,
+.social-button:focus path {
+    fill: #000000;
+}
+
+.footer-copyright {
+    width: 150px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: 130px;
+    /*---*/
+    min-height: 100px;
+}
+
+.footer-copyright b {
+    display: block;
+    margin-bottom: 15px;
+}
+.footer-copyright .button {
+    display: block;
+    margin-right: 0;
+}
+
+.bishka3 {
+    margin-left: 25px;
+}
+
+a:hover {
+    background-color: #242424;
+}
+
+
+
+
+
+
+
+
+
+/*PUP UP***************************************************************************************************************************************/
+
+
+.modal {
+    position: fixed;
+
+    color: #000000;
+
+    background-color: #f8f3f0;
+    background-image: url(../img/PNG/Фон\ для\ Контактів.png);
+    background-position: 0 0;
+    background-repeat: repeat;
+    box-shadow: 0 30px 50px rgba( 0, 0, 0, 0.7);
+
+
+    /*z-index: 2;*/
+}
+
+/*.modal-overlay {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    /*background: rgba(0, 0, 0, 0.5);
+    z-index: 1; 
+}*/
+
+.modal-login {
+    top: 120px;
+    left: 50%;
+
+    display: none;
+
+    width: 300px;
+    margin-left: -250px;
+    padding: 50px 80px;
+    
+}
+
+.modal-show {
+    display: block;
+}
+
+.modal-close {
+    position: absolute;
+    top: 0;
+    right: -34px;
+
+    width: 22px;
+    height: 22px;
+
+    font-size: 0;
+    
+    background-color: transparent;
+    border: 0;
+
+    cursor: pointer;
+}
+
+.modal-close::before,
+.modal-close::after {
+    content: "";
+    
+    position: absolute;
+    top: 10px;
+    left: 2px;
+
+    width: 19px;
+    height: 3px;
+
+    background-color: #d0d0d0;
+}
+
+.modal-close::before {
+    transform: rotate(45deg);
+}
+.modal-close::after {
+    transform: rotate(-45deg);
+}
+
+.modal-login h2 {
+    margin: 0;
+    margin-bottom: 20px;
+
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.modal-description {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+/*..........................................................................*/
+
+
+.login-form p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 10px 15px;
+    padding-right: 40px;
+    
+
+    color: #000000;
+    text-transform: uppercase;
+
+    background-color: #f9f6f3;
+    border: 2px solid #000000;
+
+}
+
+.login-form .login-help {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+/*..........................................*/
+
+.login-icon-user {
+    background-image: url(../img/SVG/user.svg);
+    background-position: 270px center;
+    background-repeat: no-repeat;
+}
+
+
+.login-icon-password {
+    background-image: url(../img/SVG/lock.svg);
+    background-position: 270px center;
+    background-repeat: no-repeat;
+}
+
+/*........................*/
+
+.login-checkbox {
+    position: relative;
+
+    padding-left: 30px;
+
+    cursor: pointer;
+}
+
+.login-checkbox:hover,
+.login-checkbox:focus {
+    color: #663d15;
+}
+
+.login-checkbox input[type="checkbox"] + .checkbox-indicator {  /*плюс вибирає саме один наступний елемент, але якщо замість нього стоїть тільда(~) то вона вибере всі наступні елементи які підходять під опис, наприклад зараз ми поставили один спан після класу, і плюс вибрав його, але якщо би спанів було багато то плюс всеодно вибрав би тільки один спан. а тільда вибрала би всі спани*/
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 17px;
+    height: 17px;
+
+    border: 2px solid #000000;
+   /* border-radius: 50%;*/
+}
+
+.login-checkbox input[type="checkbox"]:focus + .checkbox-indicator {
+    border-color: #663d15;
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before,
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+    content: "";
+
+    position: absolute;
+    top: 8px;
+    left: 1px;
+
+    width: 15px;
+    height: 2px;
+
+    background-color: #000000;
+}
+
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+    transform: rotate(45deg);
+}
+
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+    transform: rotate(-45deg);
+}
+
+/*................................*/
+
+.restore {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.resore:hover,
+.restore:focus {
+    text-decoration: none;
+}
+
+/*......*/
+.login-form .button {
+    width: 100%;
+    margin-right: 0;
+}
+
+/*..........................about map..............*/
+
+.modal-map {
+    position: fixed;
+    box-shadow: 0 30px 50px rgba( 0, 0, 0, 0.7);
+
+    top: 50%;
+    left: 50%;
+
+    width: 766px;
+    height: 561px;
+
+
+    display: none;
+
+
+
+
+    
+    margin-top: -280px;
+    margin-left: -390px;
+
+    border: 7px solid white;
+}
+.modal-map p {
+    margin: 0;
+}
+
+
+.js-button-map {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/*Animation popup*/
+
+
+
+@keyframes bounce {
+    0%   { transform: translateY(-2000px); }
+    70%  { transform: translateY(30px);    }
+    90%  { transform: translateY(-10px);   }
+    100% { transform: translateY(0);       }
+
+    
+}
+
+.modal-show {
+    display: block;
+    animation-name: bounce;
+    animation-duration: 0.6s;
+}
+
+
+@keyframes shake {
+	0%, 100% { transform: translateX(0); }
+	10%, 30%, 50%, 70%, 90% { transform: translateX(-10px); }
+	20%, 40%, 60%, 80% { transform: translateX(10px); }
+}
+.modal-error {
+	animation-name: shake;
+	animation-duration: 0.6s;
+} 
